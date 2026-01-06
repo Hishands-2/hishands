@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>His Hands | Give Water. Give Hope.</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #08304b;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background: #ffffff;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e6f1f7;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #0077b6;
+    }
+
+    nav a {
+      margin: 0 14px;
+      text-decoration: none;
+      color: #08304b;
+      font-weight: 500;
+    }
+
+    .header-btn {
+      background: #0077b6;
+      color: #ffffff;
+      padding: 10px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(180deg, #e8f4fb, #ffffff);
+      padding: 90px 8%;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-text h2 {
+      font-size: 52px;
+      color: #0077b6;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 19px;
+      max-width: 520px;
+      margin-bottom: 30px;
+    }
+
+    .hero-text a {
+      display: inline-block;
+      background: #0077b6;
+      color: white;
+      padding: 14px 32px;
+      border-radius: 32px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .hero-img {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-img img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 90px 8%;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 36px;
+      color: #0077b6;
+      margin-bottom: 20px;
+    }
+
+    /* MISSION */
+    .mission p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    /* PROJECTS */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 35px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+    }
+
+    .card h4 {
+      margin: 22px 0 10px;
+      font-size: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* DONATION */
+    .donation {
+      background: #0077b6;
+      color: white;
+      border-radius: 24px;
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    .donation h3 {
+      color: white;
+    }
+
+    .donation p {
+      max-width: 650px;
+      margin: 20px auto 35px;
+      font-size: 18px;
+    }
+
+    .donation a {
+      background: white;
+      color: #0077b6;
+      padding: 16px 36px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    /* HELP */
+    .help {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .help div {
+      background: #f0f8fd;
+      padding: 35px;
+      border-radius: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #08304b;
+      color: white;
+      padding: 45px 8%;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 14px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>His Hands</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Get Involved</a>
+    <a href="#">Donate</a>
+    <a href="#">Contact</a>
+  </nav>
+  <a href="#" class="header-btn">Give Water. Give Hope.</a>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Every Drop Brings Life.</h2>
+    <p>Join His Hands to bring clean water, dignity, and hope to communities in need.</p>
+    <a href="#">Donate Now</a>
+  </div>
+
+  <div class="hero-img">
+    <!-- 2D HERO ILLUSTRATION GOES HERE -->
+    <img src="images/hero.png" alt="Smiling villagers gathered around a clean water well">
+  </div>
+</section>
+
+<section class="mission center">
+  <h3>Our Mission</h3>
+  <p>
+    We believe access to clean water is a fundamental human right.
+    His Hands partners with communities to build sustainable water solutions
+    that restore health, dignity, and opportunity.
+  </p>
+</section>
+
+<section>
+  <h3 class="center">Featured Projects</h3>
+
+  <div class="projects">
+    <div class="card">
+      <img src="images/project1.jpg" alt="Water well project">
+      <h4>Clean Water Wells</h4>
+      <a href="#">See Project</a>
+    </div>
+
+    <div class="card">
+      <img src="images/project2.jpg" alt="School support">
+      <h4>Education Support</h4>
+      <a href="#">See Project</a>
+    </div>
+
+    <div class="card">
+      <img src="images/project3.jpg" alt="Community aid">
+      <h4>Community Development</h4>
+      <a href="#">See Project</a>
+    </div>
+  </div>
+</section>
+
+<section class="donation">
+  <h3>Be the Reason a Community Thrives</h3>
+  <p>
+    Your donation helps fund boreholes, clean water systems,
+    and life-changing projects for families and children.
+  </p>
+  <a href="#">Donate Today</a>
+</section>
+
+<section class="center">
+  <h3>How You Can Help</h3>
+
+  <div class="help">
+    <div>
+      <h4>Donate</h4>
+      <p>Provide clean water and save lives.</p>
+    </div>
+    <div>
+      <h4>Volunteer</h4>
+      <p>Give your time to meaningful causes.</p>
+    </div>
+    <div>
+      <h4>Share</h4>
+      <p>Spread hope and raise awareness.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h4>His Hands</h4>
+  <p>© 2026 His Hands. All rights reserved.</p>
+</footer>
+
+</body>
+  </html>
